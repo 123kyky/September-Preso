@@ -1,1104 +1,668 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>27A19EA017CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EB417CE8632002F8DAC</string>
-				<string>27A19ED617CE8632002F8DAC</string>
-				<string>27A19EAB17CE8632002F8DAC</string>
-				<string>27A19EAA17CE8632002F8DAC</string>
-				<string>C418B5052C414A1CBFC700E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EA117CE8632002F8DAC</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0460</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Kyle Roberts</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>27A19EA417CE8632002F8DAC</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>27A19EA017CE8632002F8DAC</string>
-			<key>productRefGroup</key>
-			<string>27A19EAA17CE8632002F8DAC</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>27A19EA817CE8632002F8DAC</string>
-				<string>27A19ECD17CE8632002F8DAC</string>
-			</array>
-		</dict>
-		<key>27A19EA417CE8632002F8DAC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>27A19EDF17CE8632002F8DAC</string>
-				<string>27A19EE017CE8632002F8DAC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>27A19EA517CE8632002F8DAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27A19EBB17CE8632002F8DAC</string>
-				<string>27A19EBF17CE8632002F8DAC</string>
-				<string>27A19EC817CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27A19EA617CE8632002F8DAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27A19EAD17CE8632002F8DAC</string>
-				<string>27A19EAF17CE8632002F8DAC</string>
-				<string>27A19EB117CE8632002F8DAC</string>
-				<string>27A19EB317CE8632002F8DAC</string>
-				<string>AD3CD9F57C8B46999FAC70AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27A19EA717CE8632002F8DAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27A19EB917CE8632002F8DAC</string>
-				<string>27A19EC117CE8632002F8DAC</string>
-				<string>27A19EC317CE8632002F8DAC</string>
-				<string>27A19EC517CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27A19EA817CE8632002F8DAC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>27A19EE117CE8632002F8DAC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>821B60B75FA24C90A9D82E42</string>
-				<string>27A19EA517CE8632002F8DAC</string>
-				<string>27A19EA617CE8632002F8DAC</string>
-				<string>27A19EA717CE8632002F8DAC</string>
-				<string>286DAED8D90144F0B22A8E34</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SeptemberPreso</string>
-			<key>productName</key>
-			<string>SeptemberPreso</string>
-			<key>productReference</key>
-			<string>27A19EA917CE8632002F8DAC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>27A19EA917CE8632002F8DAC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SeptemberPreso.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>27A19EAA17CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EA917CE8632002F8DAC</string>
-				<string>27A19ECE17CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EAB17CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EAC17CE8632002F8DAC</string>
-				<string>27A19EAE17CE8632002F8DAC</string>
-				<string>27A19EB017CE8632002F8DAC</string>
-				<string>27A19EB217CE8632002F8DAC</string>
-				<string>27A19ECF17CE8632002F8DAC</string>
-				<string>9A5277F4658C4D55A9F9CCBE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EAC17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>27A19EAD17CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EAC17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EAE17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>27A19EAF17CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EAE17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EB017CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>27A19EB117CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EB017CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EB217CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>27A19EB317CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EB217CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EB417CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EBD17CE8632002F8DAC</string>
-				<string>27A19EBE17CE8632002F8DAC</string>
-				<string>27A19EC617CE8632002F8DAC</string>
-				<string>27A19EB517CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SeptemberPreso</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EB517CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EB617CE8632002F8DAC</string>
-				<string>27A19EB717CE8632002F8DAC</string>
-				<string>27A19EBA17CE8632002F8DAC</string>
-				<string>27A19EBC17CE8632002F8DAC</string>
-				<string>27A19EC017CE8632002F8DAC</string>
-				<string>27A19EC217CE8632002F8DAC</string>
-				<string>27A19EC417CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EB617CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>SeptemberPreso-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EB717CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EB817CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EB817CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EB917CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EB717CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EBA17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EBB17CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EBA17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EBC17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SeptemberPreso-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EBD17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EBE17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EBF17CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EBE17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EC017CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EC117CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EC017CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EC217CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EC317CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EC217CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EC417CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EC517CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EC417CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EC617CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EC717CE8632002F8DAC</string>
-			</array>
-			<key>currentVersion</key>
-			<string>27A19EC717CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>SeptemberPreso.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>27A19EC717CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>SeptemberPreso.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EC817CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EC617CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EC917CE8632002F8DAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27A19EDE17CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27A19ECA17CE8632002F8DAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27A19ED017CE8632002F8DAC</string>
-				<string>27A19ED117CE8632002F8DAC</string>
-				<string>27A19ED217CE8632002F8DAC</string>
-				<string>27A19ED317CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27A19ECB17CE8632002F8DAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27A19EDB17CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27A19ECC17CE8632002F8DAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Run the unit tests in this test bundle.
-"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
-</string>
-		</dict>
-		<key>27A19ECD17CE8632002F8DAC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>27A19EE417CE8632002F8DAC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>27A19EC917CE8632002F8DAC</string>
-				<string>27A19ECA17CE8632002F8DAC</string>
-				<string>27A19ECB17CE8632002F8DAC</string>
-				<string>27A19ECC17CE8632002F8DAC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>27A19ED517CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SeptemberPresoTests</string>
-			<key>productName</key>
-			<string>SeptemberPresoTests</string>
-			<key>productReference</key>
-			<string>27A19ECE17CE8632002F8DAC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>27A19ECE17CE8632002F8DAC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SeptemberPresoTests.octest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>27A19ECF17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SenTestingKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/SenTestingKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>27A19ED017CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19ECF17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19ED117CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EAC17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19ED217CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EAE17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19ED317CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EB217CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19ED417CE8632002F8DAC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>27A19EA117CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>27A19EA817CE8632002F8DAC</string>
-			<key>remoteInfo</key>
-			<string>SeptemberPreso</string>
-		</dict>
-		<key>27A19ED517CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>27A19EA817CE8632002F8DAC</string>
-			<key>targetProxy</key>
-			<string>27A19ED417CE8632002F8DAC</string>
-		</dict>
-		<key>27A19ED617CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EDC17CE8632002F8DAC</string>
-				<string>27A19EDD17CE8632002F8DAC</string>
-				<string>27A19ED717CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SeptemberPresoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19ED717CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19ED817CE8632002F8DAC</string>
-				<string>27A19ED917CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19ED817CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>SeptemberPresoTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19ED917CE8632002F8DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27A19EDA17CE8632002F8DAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EDA17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EDB17CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19ED917CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EDC17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SeptemberPresoTests.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EDD17CE8632002F8DAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SeptemberPresoTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A19EDE17CE8632002F8DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27A19EDD17CE8632002F8DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27A19EDF17CE8632002F8DAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>27A19EE017CE8632002F8DAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>27A19EE117CE8632002F8DAC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>27A19EE217CE8632002F8DAC</string>
-				<string>27A19EE317CE8632002F8DAC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>27A19EE217CE8632002F8DAC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C418B5052C414A1CBFC700E4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeptemberPreso/SeptemberPreso-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SeptemberPreso/SeptemberPreso-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>27A19EE317CE8632002F8DAC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C418B5052C414A1CBFC700E4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeptemberPreso/SeptemberPreso-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SeptemberPreso/SeptemberPreso-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>27A19EE417CE8632002F8DAC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>27A19EE517CE8632002F8DAC</string>
-				<string>27A19EE617CE8632002F8DAC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>27A19EE517CE8632002F8DAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SeptemberPreso.app/SeptemberPreso</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeptemberPreso/SeptemberPreso-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SeptemberPresoTests/SeptemberPresoTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>27A19EE617CE8632002F8DAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SeptemberPreso.app/SeptemberPreso</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeptemberPreso/SeptemberPreso-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SeptemberPresoTests/SeptemberPresoTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>286DAED8D90144F0B22A8E34</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-SeptemberPreso-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>821B60B75FA24C90A9D82E42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9A5277F4658C4D55A9F9CCBE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-SeptemberPreso.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AD3CD9F57C8B46999FAC70AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A5277F4658C4D55A9F9CCBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C418B5052C414A1CBFC700E4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SeptemberPreso.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-SeptemberPreso.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>27A19EA117CE8632002F8DAC</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A19EAD17CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
+		27A19EAF17CE8632002F8DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
+		27A19EB117CE8632002F8DAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB017CE8632002F8DAC /* CoreGraphics.framework */; };
+		27A19EB317CE8632002F8DAC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB217CE8632002F8DAC /* CoreData.framework */; };
+		27A19EB917CE8632002F8DAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EB717CE8632002F8DAC /* InfoPlist.strings */; };
+		27A19EBB17CE8632002F8DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EBA17CE8632002F8DAC /* main.m */; };
+		27A19EBF17CE8632002F8DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EBE17CE8632002F8DAC /* AppDelegate.m */; };
+		27A19EC117CE8632002F8DAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC017CE8632002F8DAC /* Default.png */; };
+		27A19EC317CE8632002F8DAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC217CE8632002F8DAC /* Default@2x.png */; };
+		27A19EC517CE8632002F8DAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC417CE8632002F8DAC /* Default-568h@2x.png */; };
+		27A19EC817CE8632002F8DAC /* SeptemberPreso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EC617CE8632002F8DAC /* SeptemberPreso.xcdatamodeld */; };
+		27A19ED017CE8632002F8DAC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */; };
+		27A19ED117CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
+		27A19ED217CE8632002F8DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
+		27A19ED317CE8632002F8DAC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB217CE8632002F8DAC /* CoreData.framework */; };
+		27A19EDB17CE8632002F8DAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27A19ED917CE8632002F8DAC /* InfoPlist.strings */; };
+		27A19EDE17CE8632002F8DAC /* SeptemberPresoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EDD17CE8632002F8DAC /* SeptemberPresoTests.m */; };
+		27A19EF617CE8894002F8DAC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EEF17CE8894002F8DAC /* Storyboard.storyboard */; };
+		27A19EF917CE8BF7002F8DAC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EF817CE8BF7002F8DAC /* HomeViewController.m */; };
+		27A19EFF17CE8C6E002F8DAC /* DeadDropTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */; };
+		27A19F0117CE8F9E002F8DAC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0017CE8F9E002F8DAC /* MapKit.framework */; };
+		27A19F0317CE91A4002F8DAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0217CE91A4002F8DAC /* QuartzCore.framework */; };
+		27A19F0517CE944B002F8DAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0417CE944B002F8DAC /* CoreLocation.framework */; };
+		287966AB31EB4AF29599EADE /* libPods-SeptemberPresoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */; };
+		AD3CD9F57C8B46999FAC70AA /* libPods-SeptemberPreso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27A19ED417CE8632002F8DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27A19EA117CE8632002F8DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27A19EA817CE8632002F8DAC;
+			remoteInfo = SeptemberPreso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27A19EA917CE8632002F8DAC /* SeptemberPreso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeptemberPreso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A19EAC17CE8632002F8DAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27A19EAE17CE8632002F8DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27A19EB017CE8632002F8DAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27A19EB217CE8632002F8DAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		27A19EB617CE8632002F8DAC /* SeptemberPreso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeptemberPreso-Info.plist"; sourceTree = "<group>"; };
+		27A19EB817CE8632002F8DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27A19EBA17CE8632002F8DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27A19EBC17CE8632002F8DAC /* SeptemberPreso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeptemberPreso-Prefix.pch"; sourceTree = "<group>"; };
+		27A19EBD17CE8632002F8DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		27A19EBE17CE8632002F8DAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		27A19EC017CE8632002F8DAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		27A19EC217CE8632002F8DAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27A19EC417CE8632002F8DAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27A19EC717CE8632002F8DAC /* SeptemberPreso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeptemberPreso.xcdatamodel; sourceTree = "<group>"; };
+		27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeptemberPresoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		27A19ED817CE8632002F8DAC /* SeptemberPresoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeptemberPresoTests-Info.plist"; sourceTree = "<group>"; };
+		27A19EDA17CE8632002F8DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27A19EDC17CE8632002F8DAC /* SeptemberPresoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeptemberPresoTests.h; sourceTree = "<group>"; };
+		27A19EDD17CE8632002F8DAC /* SeptemberPresoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeptemberPresoTests.m; sourceTree = "<group>"; };
+		27A19EEF17CE8894002F8DAC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		27A19EF717CE8BF7002F8DAC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		27A19EF817CE8BF7002F8DAC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		27A19EFD17CE8C6D002F8DAC /* DeadDropTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadDropTableViewController.h; sourceTree = "<group>"; };
+		27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDropTableViewController.m; sourceTree = "<group>"; };
+		27A19F0017CE8F9E002F8DAC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		27A19F0217CE91A4002F8DAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27A19F0417CE944B002F8DAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPresoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPresoTests.xcconfig"; path = "Pods/Pods-SeptemberPresoTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPreso.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPreso.xcconfig"; path = "Pods/Pods-SeptemberPreso.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A19EA617CE8632002F8DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19F0517CE944B002F8DAC /* CoreLocation.framework in Frameworks */,
+				27A19F0317CE91A4002F8DAC /* QuartzCore.framework in Frameworks */,
+				27A19F0117CE8F9E002F8DAC /* MapKit.framework in Frameworks */,
+				27A19EAD17CE8632002F8DAC /* UIKit.framework in Frameworks */,
+				27A19EAF17CE8632002F8DAC /* Foundation.framework in Frameworks */,
+				27A19EB117CE8632002F8DAC /* CoreGraphics.framework in Frameworks */,
+				27A19EB317CE8632002F8DAC /* CoreData.framework in Frameworks */,
+				AD3CD9F57C8B46999FAC70AA /* libPods-SeptemberPreso.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A19ECA17CE8632002F8DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19ED017CE8632002F8DAC /* SenTestingKit.framework in Frameworks */,
+				27A19ED117CE8632002F8DAC /* UIKit.framework in Frameworks */,
+				27A19ED217CE8632002F8DAC /* Foundation.framework in Frameworks */,
+				27A19ED317CE8632002F8DAC /* CoreData.framework in Frameworks */,
+				287966AB31EB4AF29599EADE /* libPods-SeptemberPresoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A19EA017CE8632002F8DAC = {
+			isa = PBXGroup;
+			children = (
+				27A19EB417CE8632002F8DAC /* SeptemberPreso */,
+				27A19ED617CE8632002F8DAC /* SeptemberPresoTests */,
+				27A19EAB17CE8632002F8DAC /* Frameworks */,
+				27A19EAA17CE8632002F8DAC /* Products */,
+				C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */,
+				826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		27A19EAA17CE8632002F8DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EA917CE8632002F8DAC /* SeptemberPreso.app */,
+				27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A19EAB17CE8632002F8DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27A19F0417CE944B002F8DAC /* CoreLocation.framework */,
+				27A19F0217CE91A4002F8DAC /* QuartzCore.framework */,
+				27A19F0017CE8F9E002F8DAC /* MapKit.framework */,
+				27A19EAC17CE8632002F8DAC /* UIKit.framework */,
+				27A19EAE17CE8632002F8DAC /* Foundation.framework */,
+				27A19EB017CE8632002F8DAC /* CoreGraphics.framework */,
+				27A19EB217CE8632002F8DAC /* CoreData.framework */,
+				27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */,
+				9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */,
+				6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27A19EB417CE8632002F8DAC /* SeptemberPreso */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EEB17CE8894002F8DAC /* Assets */,
+				27A19EF017CE8894002F8DAC /* Classes */,
+				27A19EB517CE8632002F8DAC /* Supporting Files */,
+			);
+			path = SeptemberPreso;
+			sourceTree = "<group>";
+		};
+		27A19EB517CE8632002F8DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EB617CE8632002F8DAC /* SeptemberPreso-Info.plist */,
+				27A19EB717CE8632002F8DAC /* InfoPlist.strings */,
+				27A19EBA17CE8632002F8DAC /* main.m */,
+				27A19EBC17CE8632002F8DAC /* SeptemberPreso-Prefix.pch */,
+				27A19EC017CE8632002F8DAC /* Default.png */,
+				27A19EC217CE8632002F8DAC /* Default@2x.png */,
+				27A19EC417CE8632002F8DAC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27A19ED617CE8632002F8DAC /* SeptemberPresoTests */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EDC17CE8632002F8DAC /* SeptemberPresoTests.h */,
+				27A19EDD17CE8632002F8DAC /* SeptemberPresoTests.m */,
+				27A19ED717CE8632002F8DAC /* Supporting Files */,
+			);
+			path = SeptemberPresoTests;
+			sourceTree = "<group>";
+		};
+		27A19ED717CE8632002F8DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A19ED817CE8632002F8DAC /* SeptemberPresoTests-Info.plist */,
+				27A19ED917CE8632002F8DAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27A19EEB17CE8894002F8DAC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EEC17CE8894002F8DAC /* Data */,
+				27A19EED17CE8894002F8DAC /* Images */,
+				27A19EEE17CE8894002F8DAC /* Storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		27A19EEC17CE8894002F8DAC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EC617CE8632002F8DAC /* SeptemberPreso.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		27A19EED17CE8894002F8DAC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		27A19EEE17CE8894002F8DAC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EEF17CE8894002F8DAC /* Storyboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		27A19EF017CE8894002F8DAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EBD17CE8632002F8DAC /* AppDelegate.h */,
+				27A19EBE17CE8632002F8DAC /* AppDelegate.m */,
+				27A19EF117CE8894002F8DAC /* Controller */,
+				27A19EF217CE8894002F8DAC /* Entity */,
+				27A19EF317CE8894002F8DAC /* Util */,
+				27A19EF417CE8894002F8DAC /* View */,
+				27A19EF517CE8894002F8DAC /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27A19EF117CE8894002F8DAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27A19EF217CE8894002F8DAC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		27A19EF317CE8894002F8DAC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		27A19EF417CE8894002F8DAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27A19EF517CE8894002F8DAC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EF717CE8BF7002F8DAC /* HomeViewController.h */,
+				27A19EF817CE8BF7002F8DAC /* HomeViewController.m */,
+				27A19EFD17CE8C6D002F8DAC /* DeadDropTableViewController.h */,
+				27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27A19EA817CE8632002F8DAC /* SeptemberPreso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A19EE117CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPreso" */;
+			buildPhases = (
+				821B60B75FA24C90A9D82E42 /* Check Pods Manifest.lock */,
+				27A19EA517CE8632002F8DAC /* Sources */,
+				27A19EA617CE8632002F8DAC /* Frameworks */,
+				27A19EA717CE8632002F8DAC /* Resources */,
+				286DAED8D90144F0B22A8E34 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeptemberPreso;
+			productName = SeptemberPreso;
+			productReference = 27A19EA917CE8632002F8DAC /* SeptemberPreso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27A19ECD17CE8632002F8DAC /* SeptemberPresoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A19EE417CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPresoTests" */;
+			buildPhases = (
+				FF71993DD5F741B6B6EC5B47 /* Check Pods Manifest.lock */,
+				27A19EC917CE8632002F8DAC /* Sources */,
+				27A19ECA17CE8632002F8DAC /* Frameworks */,
+				27A19ECB17CE8632002F8DAC /* Resources */,
+				27A19ECC17CE8632002F8DAC /* ShellScript */,
+				9EE3AD20EAF942CD9B98C533 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27A19ED517CE8632002F8DAC /* PBXTargetDependency */,
+			);
+			name = SeptemberPresoTests;
+			productName = SeptemberPresoTests;
+			productReference = 27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A19EA117CE8632002F8DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kyle Roberts";
+			};
+			buildConfigurationList = 27A19EA417CE8632002F8DAC /* Build configuration list for PBXProject "SeptemberPreso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27A19EA017CE8632002F8DAC;
+			productRefGroup = 27A19EAA17CE8632002F8DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A19EA817CE8632002F8DAC /* SeptemberPreso */,
+				27A19ECD17CE8632002F8DAC /* SeptemberPresoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27A19EA717CE8632002F8DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EB917CE8632002F8DAC /* InfoPlist.strings in Resources */,
+				27A19EC117CE8632002F8DAC /* Default.png in Resources */,
+				27A19EC317CE8632002F8DAC /* Default@2x.png in Resources */,
+				27A19EC517CE8632002F8DAC /* Default-568h@2x.png in Resources */,
+				27A19EF617CE8894002F8DAC /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A19ECB17CE8632002F8DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EDB17CE8632002F8DAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A19ECC17CE8632002F8DAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		286DAED8D90144F0B22A8E34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SeptemberPreso-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821B60B75FA24C90A9D82E42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE3AD20EAF942CD9B98C533 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SeptemberPresoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF71993DD5F741B6B6EC5B47 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A19EA517CE8632002F8DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EBB17CE8632002F8DAC /* main.m in Sources */,
+				27A19EBF17CE8632002F8DAC /* AppDelegate.m in Sources */,
+				27A19EC817CE8632002F8DAC /* SeptemberPreso.xcdatamodeld in Sources */,
+				27A19EF917CE8BF7002F8DAC /* HomeViewController.m in Sources */,
+				27A19EFF17CE8C6E002F8DAC /* DeadDropTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A19EC917CE8632002F8DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EDE17CE8632002F8DAC /* SeptemberPresoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27A19ED517CE8632002F8DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27A19EA817CE8632002F8DAC /* SeptemberPreso */;
+			targetProxy = 27A19ED417CE8632002F8DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27A19EB717CE8632002F8DAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A19EB817CE8632002F8DAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27A19ED917CE8632002F8DAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A19EDA17CE8632002F8DAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27A19EDF17CE8632002F8DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27A19EE017CE8632002F8DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27A19EE217CE8632002F8DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPreso/SeptemberPreso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27A19EE317CE8632002F8DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPreso/SeptemberPreso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27A19EE517CE8632002F8DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeptemberPreso.app/SeptemberPreso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPresoTests/SeptemberPresoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27A19EE617CE8632002F8DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeptemberPreso.app/SeptemberPreso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPresoTests/SeptemberPresoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A19EA417CE8632002F8DAC /* Build configuration list for PBXProject "SeptemberPreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A19EDF17CE8632002F8DAC /* Debug */,
+				27A19EE017CE8632002F8DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A19EE117CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A19EE217CE8632002F8DAC /* Debug */,
+				27A19EE317CE8632002F8DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A19EE417CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPresoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A19EE517CE8632002F8DAC /* Debug */,
+				27A19EE617CE8632002F8DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27A19EC617CE8632002F8DAC /* SeptemberPreso.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27A19EC717CE8632002F8DAC /* SeptemberPreso.xcdatamodel */,
+			);
+			currentVersion = 27A19EC717CE8632002F8DAC /* SeptemberPreso.xcdatamodel */;
+			name = SeptemberPreso.xcdatamodeld;
+			path = ../../SeptemberPreso.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27A19EA117CE8632002F8DAC /* Project object */;
+}
