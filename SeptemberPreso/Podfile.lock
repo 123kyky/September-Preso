@@ -1,0 +1,13 @@
+PODS:
+  - MagicalRecord (2.1)
+  - OCHamcrest (2.1.0)
+
+DEPENDENCIES:
+  - MagicalRecord
+  - OCHamcrest
+
+SPEC CHECKSUMS:
+  MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
+  OCHamcrest: 96f5cb58fa0fd4b3609d37fe21e5246b259bba2a
+
+COCOAPODS: 0.23.0

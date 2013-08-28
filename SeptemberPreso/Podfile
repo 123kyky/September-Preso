@@ -1,0 +1,10 @@
+platform :ios, '6.1'
+
+target :SeptemberPreso, :exclusive => true do
+  pod 'MagicalRecord'
+end
+
+target :SeptemberPreso, :exclusive => true do
+  pod 'MagicalRecord'
+  pod 'OCHamcrest'
+end
