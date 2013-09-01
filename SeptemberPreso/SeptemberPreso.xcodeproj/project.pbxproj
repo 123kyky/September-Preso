@@ -30,6 +30,8 @@
 		27A19F0117CE8F9E002F8DAC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0017CE8F9E002F8DAC /* MapKit.framework */; };
 		27A19F0317CE91A4002F8DAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0217CE91A4002F8DAC /* QuartzCore.framework */; };
 		27A19F0517CE944B002F8DAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0417CE944B002F8DAC /* CoreLocation.framework */; };
+		27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7017D3E48400FE69BB /* DeadDrop.m */; };
+		27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */; };
 		287966AB31EB4AF29599EADE /* libPods-SeptemberPresoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */; };
 		AD3CD9F57C8B46999FAC70AA /* libPods-SeptemberPreso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,10 @@
 		27A19F0017CE8F9E002F8DAC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		27A19F0217CE91A4002F8DAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		27A19F0417CE944B002F8DAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		27D94A6F17D3E48400FE69BB /* DeadDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadDrop.h; sourceTree = "<group>"; };
+		27D94A7017D3E48400FE69BB /* DeadDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDrop.m; sourceTree = "<group>"; };
+		27D94A7B17D3F29000FE69BB /* DeadDropAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadDropAnnotation.h; sourceTree = "<group>"; };
+		27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDropAnnotation.m; sourceTree = "<group>"; };
 		6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPresoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPresoTests.xcconfig"; path = "Pods/Pods-SeptemberPresoTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPreso.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +255,8 @@
 		27A19EF217CE8894002F8DAC /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				27D94A6F17D3E48400FE69BB /* DeadDrop.h */,
+				27D94A7017D3E48400FE69BB /* DeadDrop.m */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -263,6 +271,8 @@
 		27A19EF417CE8894002F8DAC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				27D94A7B17D3F29000FE69BB /* DeadDropAnnotation.h */,
+				27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -457,6 +467,8 @@
 				27A19EC817CE8632002F8DAC /* SeptemberPreso.xcdatamodeld in Sources */,
 				27A19EF917CE8BF7002F8DAC /* HomeViewController.m in Sources */,
 				27A19EFF17CE8C6E002F8DAC /* DeadDropTableViewController.m in Sources */,
+				27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */,
+				27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

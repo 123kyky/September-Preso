@@ -7,17 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "DeadDrop.h"
 
-@implementation AppDelegate
-
-@synthesize context = _context;
+@implementation AppDelegate {
+    NSManagedObjectContext *context;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    [self.window makeKeyAndVisible];
     
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"SuperSpyDeadDrop.sqlite"];
-    _context = [NSManagedObjectContext MR_defaultContext];
+    context = [NSManagedObjectContext MR_defaultContext];
+    
+    [self buildData];
     
     return YES;
 }
@@ -41,8 +44,33 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    NSManagedObjectContext *context = [NSManagedObjectContext MR_defaultContext];
     [context MR_saveToPersistentStoreAndWait];
+}
+
+- (void)buildData {
+    [DeadDrop MR_truncateAll];
+    
+    [self createDeadDropNamed:@"CocoaHeads" withLatitude:38.630048 andLongitude:-90.404772];
+    [self createDeadDropNamed:@"Zoo" withLatitude:38.636283 andLongitude:-90.292109];
+    [self createDeadDropNamed:@"Arch" withLatitude:38.624517 andLongitude:-90.184772];
+    [self createDeadDropNamed:@"Busch Stadium" withLatitude:38.622372 andLongitude:-90.193269];
+    [self createDeadDropNamed:@"Webster" withLatitude:38.589374 andLongitude:-90.342765];
+    [self createDeadDropNamed:@"Cathedral Basilica" withLatitude:38.642451 andLongitude:-90.254611];
+//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
+//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
+//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
+//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
+    
+    [context MR_saveOnlySelfAndWait];
+}
+
+- (DeadDrop *)createDeadDropNamed:(NSString *)name withLatitude:(double)latitude andLongitude:(double)longitude {
+    DeadDrop *superSpyDeadDrop = [DeadDrop MR_createInContext:context];
+    superSpyDeadDrop.name = name;
+    superSpyDeadDrop.latitude = [NSNumber numberWithDouble:latitude];
+    superSpyDeadDrop.longitude = [NSNumber numberWithDouble:longitude];
+    
+    return superSpyDeadDrop;
 }
 
 @end
