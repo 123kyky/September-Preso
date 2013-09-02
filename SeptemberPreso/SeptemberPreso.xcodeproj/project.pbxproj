@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27686A6617D51FE600AFAAE6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27686A6517D51FE600AFAAE6 /* MapViewController.m */; };
 		27A19EAD17CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
 		27A19EAF17CE8632002F8DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
 		27A19EB117CE8632002F8DAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB017CE8632002F8DAC /* CoreGraphics.framework */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27686A6417D51FE600AFAAE6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		27686A6517D51FE600AFAAE6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		27A19EA917CE8632002F8DAC /* SeptemberPreso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeptemberPreso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A19EAC17CE8632002F8DAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27A19EAE17CE8632002F8DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -284,6 +287,8 @@
 				27A19EF817CE8BF7002F8DAC /* HomeViewController.m */,
 				27A19EFD17CE8C6D002F8DAC /* DeadDropTableViewController.h */,
 				27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */,
+				27686A6417D51FE600AFAAE6 /* MapViewController.h */,
+				27686A6517D51FE600AFAAE6 /* MapViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -469,6 +474,7 @@
 				27A19EFF17CE8C6E002F8DAC /* DeadDropTableViewController.m in Sources */,
 				27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */,
 				27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */,
+				27686A6617D51FE600AFAAE6 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

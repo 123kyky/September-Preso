@@ -9,6 +9,7 @@
 #import "DeadDropTableViewController.h"
 #import "DeadDrop.h"
 #import "DeadDropAnnotation.h"
+#import "MapViewController.h"
 
 @interface DeadDropTableViewController ()
 
@@ -17,6 +18,7 @@
 @implementation DeadDropTableViewController {
     NSArray *deadDropTableData;
     NSManagedObjectContext *context;
+    DeadDropAnnotation *annotation;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -34,6 +36,12 @@
     CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(38.637363, -90.232541);
     MKCoordinateSpan span = MKCoordinateSpanMake(0.22f, 0.22f);
     [_mapView setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:_mapView.frame];
+    [button addTarget:self
+               action:@selector(viewMapButtonTapped:)
+     forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     
     context = [NSManagedObjectContext MR_defaultContext];
     deadDropTableData = [DeadDrop MR_findAllInContext:context];
@@ -67,7 +75,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self removeAllAnnotations];
     [self showAnnotationForDeadDrop:deadDropTableData[indexPath.row]];
 }
 
@@ -78,11 +85,33 @@
 #pragma mark Annotation methods
 
 - (void)showAnnotationForDeadDrop:(DeadDrop *)deadDrop {
+    if (annotation) {
+        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[deadDropTableData indexOfObject:annotation.deadDrop]
+                                                    inSection:0];
+        [_tableView deselectRowAtIndexPath:indexPath animated:NO];
+        [_mapView removeAnnotation:annotation];
+    }
     
+    annotation = [[DeadDropAnnotation alloc] initWithDeadDrop:deadDrop];
+    [_mapView addAnnotation:annotation];
 }
 
 - (void)removeAllAnnotations {
-    
+    [_mapView removeAnnotation:annotation];
+    annotation = nil;
+}
+
+#pragma mark Buttonz
+
+- (void)viewMapButtonTapped:(UIButton *)sender {
+    if (annotation) {
+        [self performSegueWithIdentifier:@"mapViewSegue" sender:annotation];
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    MapViewController *mapViewController = segue.destinationViewController;
+    mapViewController.annotation = sender;
 }
 
 @end
