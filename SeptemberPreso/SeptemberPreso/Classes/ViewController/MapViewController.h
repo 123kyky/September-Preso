@@ -11,6 +11,8 @@
 
 @interface MapViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+
 @property (nonatomic, strong) DeadDropAnnotation *annotation;
 
 @end
