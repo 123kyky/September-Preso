@@ -62,8 +62,13 @@
     [_mapView addAnnotation:_annotation];
     
     //setup label
-    label = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, 280, 40)];
+    label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
     label.textAlignment = NSTextAlignmentCenter;
+    UIColor *blueishColor = [UIColor colorWithRed:155.0f/255.0f
+                                            green:212.0f/255.0f
+                                             blue:255.0f/255.0f
+                                            alpha:1.0f];
+    label.backgroundColor = blueishColor;
     [self.view addSubview:label];
     label.text = _annotation.deadDrop.name;
     
