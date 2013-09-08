@@ -18,7 +18,6 @@
 		27A19EC117CE8632002F8DAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC017CE8632002F8DAC /* Default.png */; };
 		27A19EC317CE8632002F8DAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC217CE8632002F8DAC /* Default@2x.png */; };
 		27A19EC517CE8632002F8DAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC417CE8632002F8DAC /* Default-568h@2x.png */; };
-		27A19EC817CE8632002F8DAC /* SeptemberPreso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EC617CE8632002F8DAC /* SeptemberPreso.xcdatamodeld */; };
 		27A19ED017CE8632002F8DAC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */; };
 		27A19ED117CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
 		27A19ED217CE8632002F8DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
@@ -34,6 +33,7 @@
 		27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7017D3E48400FE69BB /* DeadDrop.m */; };
 		27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */; };
 		287966AB31EB4AF29599EADE /* libPods-SeptemberPresoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */; };
+		A536D3BE17DCCC250010A094 /* SeptemberPreso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */; };
 		AD3CD9F57C8B46999FAC70AA /* libPods-SeptemberPreso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +64,6 @@
 		27A19EC017CE8632002F8DAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		27A19EC217CE8632002F8DAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		27A19EC417CE8632002F8DAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		27A19EC717CE8632002F8DAC /* SeptemberPreso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeptemberPreso.xcdatamodel; sourceTree = "<group>"; };
 		27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeptemberPresoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		27A19ED817CE8632002F8DAC /* SeptemberPresoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeptemberPresoTests-Info.plist"; sourceTree = "<group>"; };
@@ -86,6 +85,7 @@
 		6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPresoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPresoTests.xcconfig"; path = "Pods/Pods-SeptemberPresoTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPreso.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A536D3BD17DCCC250010A094 /* SeptemberPreso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeptemberPreso.xcdatamodel; sourceTree = "<group>"; };
 		C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPreso.xcconfig"; path = "Pods/Pods-SeptemberPreso.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -204,19 +204,11 @@
 		27A19EEB17CE8894002F8DAC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				27A19EEC17CE8894002F8DAC /* Data */,
+				A536D3BB17DCCC020010A094 /* Data */,
 				27A19EED17CE8894002F8DAC /* Images */,
 				27A19EEE17CE8894002F8DAC /* Storyboard */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		27A19EEC17CE8894002F8DAC /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				27A19EC617CE8632002F8DAC /* SeptemberPreso.xcdatamodeld */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 		27A19EED17CE8894002F8DAC /* Images */ = {
@@ -291,6 +283,14 @@
 				27686A6517D51FE600AFAAE6 /* MapViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A536D3BB17DCCC020010A094 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,12 +469,12 @@
 			files = (
 				27A19EBB17CE8632002F8DAC /* main.m in Sources */,
 				27A19EBF17CE8632002F8DAC /* AppDelegate.m in Sources */,
-				27A19EC817CE8632002F8DAC /* SeptemberPreso.xcdatamodeld in Sources */,
 				27A19EF917CE8BF7002F8DAC /* HomeViewController.m in Sources */,
 				27A19EFF17CE8C6E002F8DAC /* DeadDropTableViewController.m in Sources */,
 				27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */,
 				27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */,
 				27686A6617D51FE600AFAAE6 /* MapViewController.m in Sources */,
+				A536D3BE17DCCC250010A094 /* SeptemberPreso.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,14 +669,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		27A19EC617CE8632002F8DAC /* SeptemberPreso.xcdatamodeld */ = {
+		A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				27A19EC717CE8632002F8DAC /* SeptemberPreso.xcdatamodel */,
+				A536D3BD17DCCC250010A094 /* SeptemberPreso.xcdatamodel */,
 			);
-			currentVersion = 27A19EC717CE8632002F8DAC /* SeptemberPreso.xcdatamodel */;
-			name = SeptemberPreso.xcdatamodeld;
-			path = ../../SeptemberPreso.xcdatamodeld;
+			currentVersion = A536D3BD17DCCC250010A094 /* SeptemberPreso.xcdatamodel */;
+			path = SeptemberPreso.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
