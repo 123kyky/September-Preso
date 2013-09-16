@@ -54,12 +54,12 @@
     [self createDeadDropNamed:@"Zoo" withLatitude:38.636283 andLongitude:-90.292109];
     [self createDeadDropNamed:@"Arch" withLatitude:38.624517 andLongitude:-90.184772];
     [self createDeadDropNamed:@"Busch Stadium" withLatitude:38.622372 andLongitude:-90.193269];
-    [self createDeadDropNamed:@"Webster" withLatitude:38.589374 andLongitude:-90.342765];
+    [self createDeadDropNamed:@"Magic House" withLatitude:38.573896 andLongitude:-90.405275];
     [self createDeadDropNamed:@"Cathedral Basilica" withLatitude:38.642451 andLongitude:-90.254611];
-//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
-//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
-//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
-//    [self createDeadDropNamed:@"CocoaHeads" withLatitude:<#(double)#> andLongitude:<#(double)#>];
+    [self createDeadDropNamed:@"Mississippi River" withLatitude:38.621985 andLongitude:-90.181446];
+    [self createDeadDropNamed:@"Illinois" withLatitude:38.615279 andLongitude:-90.129948];
+    [self createDeadDropNamed:@"Lambert" withLatitude:38.748478 andLongitude:-90.36684];
+    [self createDeadDropNamed:@"The Loop" withLatitude:38.655807 andLongitude:-90.304956];
     
     [context MR_saveOnlySelfAndWait];
 }

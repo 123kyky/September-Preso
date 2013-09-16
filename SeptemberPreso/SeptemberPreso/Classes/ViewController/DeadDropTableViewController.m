@@ -44,7 +44,7 @@
     [self.view addSubview:button];
     
     context = [NSManagedObjectContext MR_defaultContext];
-    deadDropTableData = [DeadDrop MR_findAllInContext:context];
+    deadDropTableData = [DeadDrop MR_findAllSortedBy:@"name" ascending:YES inContext:context];
     
     _tableView.delegate = self;
     _tableView.dataSource = self;

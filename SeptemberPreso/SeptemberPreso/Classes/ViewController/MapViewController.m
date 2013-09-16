@@ -74,7 +74,7 @@
     
     //setup data
     context = [NSManagedObjectContext MR_defaultContext];
-    deadDrops = [DeadDrop MR_findAllInContext:context];
+    deadDrops = [DeadDrop MR_findAllSortedBy:@"name" ascending:YES inContext:context];
     
     //setup buttons
     CGRect buttonFrame = CGRectMake(0, 0, 20, onScreenMapFrame.size.height);

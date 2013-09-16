@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271A5D5517E75F660088FD75 /* superspy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 271A5D5417E75F660088FD75 /* superspy.jpg */; };
 		27686A6617D51FE600AFAAE6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27686A6517D51FE600AFAAE6 /* MapViewController.m */; };
 		27A19EAD17CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
 		27A19EAF17CE8632002F8DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271A5D5417E75F660088FD75 /* superspy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superspy.jpg; sourceTree = "<group>"; };
 		27686A6417D51FE600AFAAE6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		27686A6517D51FE600AFAAE6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		27A19EA917CE8632002F8DAC /* SeptemberPreso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeptemberPreso.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,6 +216,7 @@
 		27A19EED17CE8894002F8DAC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				271A5D5417E75F660088FD75 /* superspy.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				27A19EC317CE8632002F8DAC /* Default@2x.png in Resources */,
 				27A19EC517CE8632002F8DAC /* Default-568h@2x.png in Resources */,
 				27A19EF617CE8894002F8DAC /* Storyboard.storyboard in Resources */,
+				271A5D5517E75F660088FD75 /* superspy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
