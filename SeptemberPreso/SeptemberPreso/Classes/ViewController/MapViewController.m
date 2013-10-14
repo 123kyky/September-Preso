@@ -38,7 +38,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
+	self.view.accessibilityIdentifier = @"DeadDropMapScreen";
+	self.mapView.accessibilityIdentifier = @"DeadDropMap";
+
     //setup frames for animation
     onScreenMapFrame = _mapView.frame;
     nextMapFrame = CGRectMake(onScreenMapFrame.size.width,
@@ -63,6 +66,8 @@
     
     //setup label
     label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
+	[label setIsAccessibilityElement:YES];
+	label.accessibilityIdentifier = @"DeadDropMapTitle";
     label.textAlignment = NSTextAlignmentCenter;
     UIColor *blueishColor = [UIColor colorWithRed:155.0f/255.0f
                                             green:212.0f/255.0f
@@ -79,18 +84,21 @@
     //setup buttons
     CGRect buttonFrame = CGRectMake(0, 0, 20, onScreenMapFrame.size.height);
     UIButton *leftButton = [[UIButton alloc] initWithFrame:buttonFrame];
+	leftButton.accessibilityIdentifier = @"NavigateLeftButton";
     [leftButton addTarget:self
                action:@selector(showPreviousMap:)
      forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:leftButton];
     buttonFrame = CGRectMake(onScreenMapFrame.size.width - 20, 0, 20, onScreenMapFrame.size.height);
     UIButton *rightButton = [[UIButton alloc] initWithFrame:buttonFrame];
+	rightButton.accessibilityIdentifier = @"NavigateRightButton";
     [rightButton addTarget:self
                    action:@selector(showNextMap:)
          forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:rightButton];
     
     UIButton *backButton = [[UIButton alloc] initWithFrame:label.frame];
+    backButton.accessibilityIdentifier = @"NavigateBackButton";
     [backButton addTarget:self
                     action:@selector(backButtonTapped:)
           forControlEvents:UIControlEventTouchUpInside];

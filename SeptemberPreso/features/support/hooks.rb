@@ -1,0 +1,3 @@
+Before do
+    determineCurrentScreen
+end

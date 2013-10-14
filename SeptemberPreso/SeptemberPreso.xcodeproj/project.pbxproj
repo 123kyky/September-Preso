@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00528b712d18f91b0df2397a /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EB717CE8632002F8DAC /* InfoPlist.strings */; };
+		0cf7455efac13fd31047ae39 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07bd712ea648a354460bb59b /* CFNetwork.framework */; };
+		254c9e2ec1f85fde616098f7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
 		271A5D5517E75F660088FD75 /* superspy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 271A5D5417E75F660088FD75 /* superspy.jpg */; };
 		27686A6617D51FE600AFAAE6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27686A6517D51FE600AFAAE6 /* MapViewController.m */; };
 		27A19EAD17CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
@@ -34,8 +37,44 @@
 		27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7017D3E48400FE69BB /* DeadDrop.m */; };
 		27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */; };
 		287966AB31EB4AF29599EADE /* libPods-SeptemberPresoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */; };
+		34803d440e461e3c46d9ac80 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27686A6517D51FE600AFAAE6 /* MapViewController.m */; };
+		376de535c8f48ac0f7600e71 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB217CE8632002F8DAC /* CoreData.framework */; };
+		4ad36e36084ee0e3fccd58fa /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0417CE944B002F8DAC /* CoreLocation.framework */; };
+		54C18115D2FBD6BF8998C26A /* deadDrop_map_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C18EEEF7C6E58D511E1D0C /* deadDrop_map_steps.rb */; };
+		54C1818988450E5B1FF79B99 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C18345D205BEA3778B3C8F /* env.rb */; };
+		54C181FD8C496F9EC19477C9 /* hooks.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C1844F5A7344BCE9E8DF6A /* hooks.rb */; };
+		54C182585750132DE9EF9889 /* application_launch.feature in Resources */ = {isa = PBXBuildFile; fileRef = 54C18086C1BF631520A7DF58 /* application_launch.feature */; };
+		54C1857572C946F0862FACFB /* deadDrop_map.feature in Resources */ = {isa = PBXBuildFile; fileRef = 54C183DA43C1AF122A84C755 /* deadDrop_map.feature */; };
+		54C1858A42F1FCF134507323 /* application_launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C18673745E521EBBE41907 /* application_launch_steps.rb */; };
+		54C18740E3AF9A4AE8508249 /* deadDrop_list_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C18CB5E995939E35D093C5 /* deadDrop_list_steps.rb */; };
+		54C18876A81E005D0BC31898 /* calabash_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C18152332C0D6373B38ACC /* calabash_steps.rb */; };
+		54C188BB0B7F5E16AA65E2CE /* my_first_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C182A9095866CEF455DFB3 /* my_first_steps.rb */; };
+		54C18C7A48EBC8444D3C01BD /* my_first.featurex in Resources */ = {isa = PBXBuildFile; fileRef = 54C18194FA0C10A3494EE8D6 /* my_first.featurex */; };
+		54C18DD49D08360EF2A3FFF6 /* TestScript in Resources */ = {isa = PBXBuildFile; fileRef = 54C18EF811F69FF3F53B39CC /* TestScript */; };
+		54C18E977A5E87A89D1ACB82 /* 01_launch.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C188CAE6033B47B8067D1D /* 01_launch.rb */; };
+		54C18F280435438DB5BCC873 /* deadDrop_list.feature in Resources */ = {isa = PBXBuildFile; fileRef = 54C18B2F5CAA98B97D312E0E /* deadDrop_list.feature */; };
+		54C18F2D05B5960E994B8AEB /* 02_pre_stop_hooks.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C18D7BD8672170F58B8788 /* 02_pre_stop_hooks.rb */; };
+		54C18FD01944E65232C40CB9 /* worldExtensions.rb in Resources */ = {isa = PBXBuildFile; fileRef = 54C1847D5A3DBC6C96D44A2B /* worldExtensions.rb */; };
+		56bcedaaa8ffa425021ad8c2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC017CE8632002F8DAC /* Default.png */; };
+		5981713292f46fdef4b13dd8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC417CE8632002F8DAC /* Default-568h@2x.png */; };
+		6881a475f5ac4c5c103a86a7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EBE17CE8632002F8DAC /* AppDelegate.m */; };
+		68d9468ba4e7e3775d767de3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EF817CE8BF7002F8DAC /* HomeViewController.m */; };
+		71fca634898cc39eafceae10 /* SeptemberPreso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */; };
+		78499ba7f0109063021bb5a6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB017CE8632002F8DAC /* CoreGraphics.framework */; };
+		82adbf68d49fca7aa5232110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
+		86d4953d4715962fb2791195 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC217CE8632002F8DAC /* Default@2x.png */; };
+		8c05bb1300ea4e81202fdef7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0217CE91A4002F8DAC /* QuartzCore.framework */; };
+		920c80f289685daec1a539bf /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0017CE8F9E002F8DAC /* MapKit.framework */; };
+		958bc3e04d8e6a42e8d80297 /* DeadDropAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */; };
+		9c25c3c0b06c0902445b67ad /* libPods-SeptemberPreso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */; };
+		a512260c18b69da4d4452c05 /* superspy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 271A5D5417E75F660088FD75 /* superspy.jpg */; };
 		A536D3BE17DCCC250010A094 /* SeptemberPreso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */; };
 		AD3CD9F57C8B46999FAC70AA /* libPods-SeptemberPreso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */; };
+		bb17472418e28963fc3f5ab4 /* DeadDropTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */; };
+		d0ab31f7408ce5789014de3a /* DeadDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7017D3E48400FE69BB /* DeadDrop.m */; };
+		e3ff90e87bda9f70ed3fd238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EBA17CE8632002F8DAC /* main.m */; };
+		e44206ec4efdfdc22026a4ea /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EEF17CE8894002F8DAC /* Storyboard.storyboard */; };
+		f604c0644edae221df251cbe /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2663623fcd6c1b0f046b648b /* calabash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +88,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07bd712ea648a354460bb59b /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2663623fcd6c1b0f046b648b /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = calabash.framework; path = calabash.framework; sourceTree = "<group>"; };
 		271A5D5417E75F660088FD75 /* superspy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superspy.jpg; sourceTree = "<group>"; };
 		27686A6417D51FE600AFAAE6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		27686A6517D51FE600AFAAE6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
@@ -84,10 +125,26 @@
 		27D94A7017D3E48400FE69BB /* DeadDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDrop.m; sourceTree = "<group>"; };
 		27D94A7B17D3F29000FE69BB /* DeadDropAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadDropAnnotation.h; sourceTree = "<group>"; };
 		27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDropAnnotation.m; sourceTree = "<group>"; };
+		54C18086C1BF631520A7DF58 /* application_launch.feature */ = {isa = PBXFileReference; lastKnownFileType = file.feature; path = application_launch.feature; sourceTree = "<group>"; };
+		54C18152332C0D6373B38ACC /* calabash_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = calabash_steps.rb; sourceTree = "<group>"; };
+		54C18194FA0C10A3494EE8D6 /* my_first.featurex */ = {isa = PBXFileReference; lastKnownFileType = file.featurex; path = my_first.featurex; sourceTree = "<group>"; };
+		54C182A9095866CEF455DFB3 /* my_first_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = my_first_steps.rb; sourceTree = "<group>"; };
+		54C18345D205BEA3778B3C8F /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		54C183DA43C1AF122A84C755 /* deadDrop_map.feature */ = {isa = PBXFileReference; lastKnownFileType = file.feature; path = deadDrop_map.feature; sourceTree = "<group>"; };
+		54C1844F5A7344BCE9E8DF6A /* hooks.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = hooks.rb; sourceTree = "<group>"; };
+		54C1847D5A3DBC6C96D44A2B /* worldExtensions.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = worldExtensions.rb; sourceTree = "<group>"; };
+		54C18673745E521EBBE41907 /* application_launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = application_launch_steps.rb; sourceTree = "<group>"; };
+		54C188CAE6033B47B8067D1D /* 01_launch.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = 01_launch.rb; sourceTree = "<group>"; };
+		54C18B2F5CAA98B97D312E0E /* deadDrop_list.feature */ = {isa = PBXFileReference; lastKnownFileType = file.feature; path = deadDrop_list.feature; sourceTree = "<group>"; };
+		54C18CB5E995939E35D093C5 /* deadDrop_list_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = deadDrop_list_steps.rb; sourceTree = "<group>"; };
+		54C18D7BD8672170F58B8788 /* 02_pre_stop_hooks.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = 02_pre_stop_hooks.rb; sourceTree = "<group>"; };
+		54C18EEEF7C6E58D511E1D0C /* deadDrop_map_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = deadDrop_map_steps.rb; sourceTree = "<group>"; };
+		54C18EF811F69FF3F53B39CC /* TestScript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestScript; sourceTree = "<group>"; };
 		6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPresoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPresoTests.xcconfig"; path = "Pods/Pods-SeptemberPresoTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPreso.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A536D3BD17DCCC250010A094 /* SeptemberPreso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeptemberPreso.xcdatamodel; sourceTree = "<group>"; };
+		b57f5b40fdf68e412b1c02be /* SeptemberPreso-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeptemberPreso-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPreso.xcconfig"; path = "Pods/Pods-SeptemberPreso.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -119,6 +176,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		fd3ce53e47797ab162165921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ad36e36084ee0e3fccd58fa /* CoreLocation.framework in Frameworks */,
+				8c05bb1300ea4e81202fdef7 /* QuartzCore.framework in Frameworks */,
+				920c80f289685daec1a539bf /* MapKit.framework in Frameworks */,
+				82adbf68d49fca7aa5232110 /* UIKit.framework in Frameworks */,
+				254c9e2ec1f85fde616098f7 /* Foundation.framework in Frameworks */,
+				78499ba7f0109063021bb5a6 /* CoreGraphics.framework in Frameworks */,
+				376de535c8f48ac0f7600e71 /* CoreData.framework in Frameworks */,
+				9c25c3c0b06c0902445b67ad /* libPods-SeptemberPreso.a in Frameworks */,
+				0cf7455efac13fd31047ae39 /* CFNetwork.framework in Frameworks */,
+				f604c0644edae221df251cbe /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -131,6 +205,7 @@
 				27A19EAA17CE8632002F8DAC /* Products */,
 				C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */,
 				826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */,
+				54C1812D6A1F68B68F3E7CCF /* features */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,8 +231,11 @@
 				27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */,
 				9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */,
 				6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */,
+				07bd712ea648a354460bb59b /* CFNetwork.framework */,
+				2663623fcd6c1b0f046b648b /* calabash.framework */,
 			);
 			name = Frameworks;
+			path = "";
 			sourceTree = "<group>";
 		};
 		27A19EB417CE8632002F8DAC /* SeptemberPreso */ = {
@@ -288,6 +366,44 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		54C1812D6A1F68B68F3E7CCF /* features */ = {
+			isa = PBXGroup;
+			children = (
+				54C18516EAEB86C4BF24F296 /* support */,
+				54C182E1A780961BCE3AC32B /* step_definitions */,
+				54C18194FA0C10A3494EE8D6 /* my_first.featurex */,
+				54C18086C1BF631520A7DF58 /* application_launch.feature */,
+				54C18EF811F69FF3F53B39CC /* TestScript */,
+				54C18B2F5CAA98B97D312E0E /* deadDrop_list.feature */,
+				54C183DA43C1AF122A84C755 /* deadDrop_map.feature */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		54C182E1A780961BCE3AC32B /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				54C18152332C0D6373B38ACC /* calabash_steps.rb */,
+				54C182A9095866CEF455DFB3 /* my_first_steps.rb */,
+				54C18673745E521EBBE41907 /* application_launch_steps.rb */,
+				54C18CB5E995939E35D093C5 /* deadDrop_list_steps.rb */,
+				54C18EEEF7C6E58D511E1D0C /* deadDrop_map_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		54C18516EAEB86C4BF24F296 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				54C18345D205BEA3778B3C8F /* env.rb */,
+				54C188CAE6033B47B8067D1D /* 01_launch.rb */,
+				54C18D7BD8672170F58B8788 /* 02_pre_stop_hooks.rb */,
+				54C1847D5A3DBC6C96D44A2B /* worldExtensions.rb */,
+				54C1844F5A7344BCE9E8DF6A /* hooks.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
 		A536D3BB17DCCC020010A094 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +455,25 @@
 			productReference = 27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		9e0318ae2cf85e63a6a9f05b /* SeptemberPreso-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7cdb09435631872405644d69 /* Build configuration list for PBXNativeTarget "SeptemberPreso-cal" */;
+			buildPhases = (
+				b792e10df3c3223842d211f8 /* Check Pods Manifest.lock */,
+				386ab772a873be6f5ad0e9ba /* Sources */,
+				fd3ce53e47797ab162165921 /* Frameworks */,
+				37adc42315a4807bec4dc482 /* Resources */,
+				2f18116fa665ad535f1e1603 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SeptemberPreso-cal";
+			productName = "SeptemberPreso-cal";
+			productReference = b57f5b40fdf68e412b1c02be /* SeptemberPreso-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -362,6 +497,7 @@
 			targets = (
 				27A19EA817CE8632002F8DAC /* SeptemberPreso */,
 				27A19ECD17CE8632002F8DAC /* SeptemberPresoTests */,
+				9e0318ae2cf85e63a6a9f05b /* SeptemberPreso-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -388,6 +524,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37adc42315a4807bec4dc482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00528b712d18f91b0df2397a /* InfoPlist.strings in Resources */,
+				56bcedaaa8ffa425021ad8c2 /* Default.png in Resources */,
+				86d4953d4715962fb2791195 /* Default@2x.png in Resources */,
+				5981713292f46fdef4b13dd8 /* Default-568h@2x.png in Resources */,
+				e44206ec4efdfdc22026a4ea /* Storyboard.storyboard in Resources */,
+				a512260c18b69da4d4452c05 /* superspy.jpg in Resources */,
+				54C1818988450E5B1FF79B99 /* env.rb in Resources */,
+				54C18E977A5E87A89D1ACB82 /* 01_launch.rb in Resources */,
+				54C18F2D05B5960E994B8AEB /* 02_pre_stop_hooks.rb in Resources */,
+				54C18876A81E005D0BC31898 /* calabash_steps.rb in Resources */,
+				54C188BB0B7F5E16AA65E2CE /* my_first_steps.rb in Resources */,
+				54C18C7A48EBC8444D3C01BD /* my_first.featurex in Resources */,
+				54C182585750132DE9EF9889 /* application_launch.feature in Resources */,
+				54C18DD49D08360EF2A3FFF6 /* TestScript in Resources */,
+				54C18F280435438DB5BCC873 /* deadDrop_list.feature in Resources */,
+				54C1857572C946F0862FACFB /* deadDrop_map.feature in Resources */,
+				54C1858A42F1FCF134507323 /* application_launch_steps.rb in Resources */,
+				54C18740E3AF9A4AE8508249 /* deadDrop_list_steps.rb in Resources */,
+				54C18115D2FBD6BF8998C26A /* deadDrop_map_steps.rb in Resources */,
+				54C18FD01944E65232C40CB9 /* worldExtensions.rb in Resources */,
+				54C181FD8C496F9EC19477C9 /* hooks.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -405,6 +569,21 @@
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
 		286DAED8D90144F0B22A8E34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SeptemberPreso-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2f18116fa665ad535f1e1603 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,6 +628,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-SeptemberPresoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		b792e10df3c3223842d211f8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		FF71993DD5F741B6B6EC5B47 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -487,6 +681,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A19EDE17CE8632002F8DAC /* SeptemberPresoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386ab772a873be6f5ad0e9ba /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				e3ff90e87bda9f70ed3fd238 /* main.m in Sources */,
+				6881a475f5ac4c5c103a86a7 /* AppDelegate.m in Sources */,
+				68d9468ba4e7e3775d767de3 /* HomeViewController.m in Sources */,
+				bb17472418e28963fc3f5ab4 /* DeadDropTableViewController.m in Sources */,
+				d0ab31f7408ce5789014de3a /* DeadDrop.m in Sources */,
+				958bc3e04d8e6a42e8d80297 /* DeadDropAnnotation.m in Sources */,
+				34803d440e461e3c46d9ac80 /* MapViewController.m in Sources */,
+				71fca634898cc39eafceae10 /* SeptemberPreso.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +849,52 @@
 			};
 			name = Release;
 		};
+		482f40990e2c2f1539cb40a9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPreso/SeptemberPreso-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60f315769b0f7c9d2ad06c7d /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPreso/SeptemberPreso-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -666,6 +921,15 @@
 			buildConfigurations = (
 				27A19EE517CE8632002F8DAC /* Debug */,
 				27A19EE617CE8632002F8DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7cdb09435631872405644d69 /* Build configuration list for PBXNativeTarget "SeptemberPreso-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482f40990e2c2f1539cb40a9 /* Debug */,
+				60f315769b0f7c9d2ad06c7d /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

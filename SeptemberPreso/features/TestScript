@@ -1,0 +1,12 @@
+Smoke Test
+
+Make sure:
+
+1. App launches correctly (doesn't crash)
+2. I enter the app after swiping on the Home screen
+3. I can scroll the list of dead drops up and down
+4. I can select any dead drop and then tap the map to open it
+5. I can tap the pin and see the name of the Dead Drop
+6. I can can tap on the header to return to the Dead Drop List
+
+Ship it!

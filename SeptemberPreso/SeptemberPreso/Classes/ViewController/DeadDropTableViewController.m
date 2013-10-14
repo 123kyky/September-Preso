@@ -32,12 +32,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+	self.view.accessibilityIdentifier = @"DeadDropListScreen";
+    _tableView.accessibilityIdentifier = @"DeadDropList";
+    _mapView.accessibilityIdentifier = @"DeadDropMiniMap";
     
     CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(38.637363, -90.232541);
     MKCoordinateSpan span = MKCoordinateSpanMake(0.22f, 0.22f);
     [_mapView setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
     
     UIButton *button = [[UIButton alloc] initWithFrame:_mapView.frame];
+	button.accessibilityIdentifier = @"OpenMap";
     [button addTarget:self
                action:@selector(viewMapButtonTapped:)
      forControlEvents:UIControlEventTouchUpInside];

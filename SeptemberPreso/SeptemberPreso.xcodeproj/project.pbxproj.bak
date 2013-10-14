@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271A5D5517E75F660088FD75 /* superspy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 271A5D5417E75F660088FD75 /* superspy.jpg */; };
+		27686A6617D51FE600AFAAE6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27686A6517D51FE600AFAAE6 /* MapViewController.m */; };
+		27A19EAD17CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
+		27A19EAF17CE8632002F8DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
+		27A19EB117CE8632002F8DAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB017CE8632002F8DAC /* CoreGraphics.framework */; };
+		27A19EB317CE8632002F8DAC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB217CE8632002F8DAC /* CoreData.framework */; };
+		27A19EB917CE8632002F8DAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EB717CE8632002F8DAC /* InfoPlist.strings */; };
+		27A19EBB17CE8632002F8DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EBA17CE8632002F8DAC /* main.m */; };
+		27A19EBF17CE8632002F8DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EBE17CE8632002F8DAC /* AppDelegate.m */; };
+		27A19EC117CE8632002F8DAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC017CE8632002F8DAC /* Default.png */; };
+		27A19EC317CE8632002F8DAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC217CE8632002F8DAC /* Default@2x.png */; };
+		27A19EC517CE8632002F8DAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EC417CE8632002F8DAC /* Default-568h@2x.png */; };
+		27A19ED017CE8632002F8DAC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */; };
+		27A19ED117CE8632002F8DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAC17CE8632002F8DAC /* UIKit.framework */; };
+		27A19ED217CE8632002F8DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EAE17CE8632002F8DAC /* Foundation.framework */; };
+		27A19ED317CE8632002F8DAC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19EB217CE8632002F8DAC /* CoreData.framework */; };
+		27A19EDB17CE8632002F8DAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27A19ED917CE8632002F8DAC /* InfoPlist.strings */; };
+		27A19EDE17CE8632002F8DAC /* SeptemberPresoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EDD17CE8632002F8DAC /* SeptemberPresoTests.m */; };
+		27A19EF617CE8894002F8DAC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A19EEF17CE8894002F8DAC /* Storyboard.storyboard */; };
+		27A19EF917CE8BF7002F8DAC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EF817CE8BF7002F8DAC /* HomeViewController.m */; };
+		27A19EFF17CE8C6E002F8DAC /* DeadDropTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */; };
+		27A19F0117CE8F9E002F8DAC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0017CE8F9E002F8DAC /* MapKit.framework */; };
+		27A19F0317CE91A4002F8DAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0217CE91A4002F8DAC /* QuartzCore.framework */; };
+		27A19F0517CE944B002F8DAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A19F0417CE944B002F8DAC /* CoreLocation.framework */; };
+		27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7017D3E48400FE69BB /* DeadDrop.m */; };
+		27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */; };
+		287966AB31EB4AF29599EADE /* libPods-SeptemberPresoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */; };
+		A536D3BE17DCCC250010A094 /* SeptemberPreso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */; };
+		AD3CD9F57C8B46999FAC70AA /* libPods-SeptemberPreso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27A19ED417CE8632002F8DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27A19EA117CE8632002F8DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27A19EA817CE8632002F8DAC;
+			remoteInfo = SeptemberPreso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		271A5D5417E75F660088FD75 /* superspy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superspy.jpg; sourceTree = "<group>"; };
+		27686A6417D51FE600AFAAE6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		27686A6517D51FE600AFAAE6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		27A19EA917CE8632002F8DAC /* SeptemberPreso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeptemberPreso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A19EAC17CE8632002F8DAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27A19EAE17CE8632002F8DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27A19EB017CE8632002F8DAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27A19EB217CE8632002F8DAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		27A19EB617CE8632002F8DAC /* SeptemberPreso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeptemberPreso-Info.plist"; sourceTree = "<group>"; };
+		27A19EB817CE8632002F8DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27A19EBA17CE8632002F8DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27A19EBC17CE8632002F8DAC /* SeptemberPreso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeptemberPreso-Prefix.pch"; sourceTree = "<group>"; };
+		27A19EBD17CE8632002F8DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		27A19EBE17CE8632002F8DAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		27A19EC017CE8632002F8DAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		27A19EC217CE8632002F8DAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27A19EC417CE8632002F8DAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeptemberPresoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		27A19ED817CE8632002F8DAC /* SeptemberPresoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeptemberPresoTests-Info.plist"; sourceTree = "<group>"; };
+		27A19EDA17CE8632002F8DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27A19EDC17CE8632002F8DAC /* SeptemberPresoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeptemberPresoTests.h; sourceTree = "<group>"; };
+		27A19EDD17CE8632002F8DAC /* SeptemberPresoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeptemberPresoTests.m; sourceTree = "<group>"; };
+		27A19EEF17CE8894002F8DAC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		27A19EF717CE8BF7002F8DAC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		27A19EF817CE8BF7002F8DAC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		27A19EFD17CE8C6D002F8DAC /* DeadDropTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadDropTableViewController.h; sourceTree = "<group>"; };
+		27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDropTableViewController.m; sourceTree = "<group>"; };
+		27A19F0017CE8F9E002F8DAC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		27A19F0217CE91A4002F8DAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27A19F0417CE944B002F8DAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		27D94A6F17D3E48400FE69BB /* DeadDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadDrop.h; sourceTree = "<group>"; };
+		27D94A7017D3E48400FE69BB /* DeadDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDrop.m; sourceTree = "<group>"; };
+		27D94A7B17D3F29000FE69BB /* DeadDropAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadDropAnnotation.h; sourceTree = "<group>"; };
+		27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadDropAnnotation.m; sourceTree = "<group>"; };
+		6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPresoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPresoTests.xcconfig"; path = "Pods/Pods-SeptemberPresoTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeptemberPreso.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A536D3BD17DCCC250010A094 /* SeptemberPreso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeptemberPreso.xcdatamodel; sourceTree = "<group>"; };
+		C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptemberPreso.xcconfig"; path = "Pods/Pods-SeptemberPreso.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A19EA617CE8632002F8DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19F0517CE944B002F8DAC /* CoreLocation.framework in Frameworks */,
+				27A19F0317CE91A4002F8DAC /* QuartzCore.framework in Frameworks */,
+				27A19F0117CE8F9E002F8DAC /* MapKit.framework in Frameworks */,
+				27A19EAD17CE8632002F8DAC /* UIKit.framework in Frameworks */,
+				27A19EAF17CE8632002F8DAC /* Foundation.framework in Frameworks */,
+				27A19EB117CE8632002F8DAC /* CoreGraphics.framework in Frameworks */,
+				27A19EB317CE8632002F8DAC /* CoreData.framework in Frameworks */,
+				AD3CD9F57C8B46999FAC70AA /* libPods-SeptemberPreso.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A19ECA17CE8632002F8DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19ED017CE8632002F8DAC /* SenTestingKit.framework in Frameworks */,
+				27A19ED117CE8632002F8DAC /* UIKit.framework in Frameworks */,
+				27A19ED217CE8632002F8DAC /* Foundation.framework in Frameworks */,
+				27A19ED317CE8632002F8DAC /* CoreData.framework in Frameworks */,
+				287966AB31EB4AF29599EADE /* libPods-SeptemberPresoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A19EA017CE8632002F8DAC = {
+			isa = PBXGroup;
+			children = (
+				27A19EB417CE8632002F8DAC /* SeptemberPreso */,
+				27A19ED617CE8632002F8DAC /* SeptemberPresoTests */,
+				27A19EAB17CE8632002F8DAC /* Frameworks */,
+				27A19EAA17CE8632002F8DAC /* Products */,
+				C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */,
+				826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		27A19EAA17CE8632002F8DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EA917CE8632002F8DAC /* SeptemberPreso.app */,
+				27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A19EAB17CE8632002F8DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27A19F0417CE944B002F8DAC /* CoreLocation.framework */,
+				27A19F0217CE91A4002F8DAC /* QuartzCore.framework */,
+				27A19F0017CE8F9E002F8DAC /* MapKit.framework */,
+				27A19EAC17CE8632002F8DAC /* UIKit.framework */,
+				27A19EAE17CE8632002F8DAC /* Foundation.framework */,
+				27A19EB017CE8632002F8DAC /* CoreGraphics.framework */,
+				27A19EB217CE8632002F8DAC /* CoreData.framework */,
+				27A19ECF17CE8632002F8DAC /* SenTestingKit.framework */,
+				9A5277F4658C4D55A9F9CCBE /* libPods-SeptemberPreso.a */,
+				6419F779087E4E179B4935DC /* libPods-SeptemberPresoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27A19EB417CE8632002F8DAC /* SeptemberPreso */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EEB17CE8894002F8DAC /* Assets */,
+				27A19EF017CE8894002F8DAC /* Classes */,
+				27A19EB517CE8632002F8DAC /* Supporting Files */,
+			);
+			path = SeptemberPreso;
+			sourceTree = "<group>";
+		};
+		27A19EB517CE8632002F8DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EB617CE8632002F8DAC /* SeptemberPreso-Info.plist */,
+				27A19EB717CE8632002F8DAC /* InfoPlist.strings */,
+				27A19EBA17CE8632002F8DAC /* main.m */,
+				27A19EBC17CE8632002F8DAC /* SeptemberPreso-Prefix.pch */,
+				27A19EC017CE8632002F8DAC /* Default.png */,
+				27A19EC217CE8632002F8DAC /* Default@2x.png */,
+				27A19EC417CE8632002F8DAC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27A19ED617CE8632002F8DAC /* SeptemberPresoTests */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EDC17CE8632002F8DAC /* SeptemberPresoTests.h */,
+				27A19EDD17CE8632002F8DAC /* SeptemberPresoTests.m */,
+				27A19ED717CE8632002F8DAC /* Supporting Files */,
+			);
+			path = SeptemberPresoTests;
+			sourceTree = "<group>";
+		};
+		27A19ED717CE8632002F8DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A19ED817CE8632002F8DAC /* SeptemberPresoTests-Info.plist */,
+				27A19ED917CE8632002F8DAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27A19EEB17CE8894002F8DAC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A536D3BB17DCCC020010A094 /* Data */,
+				27A19EED17CE8894002F8DAC /* Images */,
+				27A19EEE17CE8894002F8DAC /* Storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		27A19EED17CE8894002F8DAC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				271A5D5417E75F660088FD75 /* superspy.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		27A19EEE17CE8894002F8DAC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EEF17CE8894002F8DAC /* Storyboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		27A19EF017CE8894002F8DAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EBD17CE8632002F8DAC /* AppDelegate.h */,
+				27A19EBE17CE8632002F8DAC /* AppDelegate.m */,
+				27A19EF117CE8894002F8DAC /* Controller */,
+				27A19EF217CE8894002F8DAC /* Entity */,
+				27A19EF317CE8894002F8DAC /* Util */,
+				27A19EF417CE8894002F8DAC /* View */,
+				27A19EF517CE8894002F8DAC /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27A19EF117CE8894002F8DAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27A19EF217CE8894002F8DAC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				27D94A6F17D3E48400FE69BB /* DeadDrop.h */,
+				27D94A7017D3E48400FE69BB /* DeadDrop.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		27A19EF317CE8894002F8DAC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		27A19EF417CE8894002F8DAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27D94A7B17D3F29000FE69BB /* DeadDropAnnotation.h */,
+				27D94A7C17D3F29000FE69BB /* DeadDropAnnotation.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27A19EF517CE8894002F8DAC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27A19EF717CE8BF7002F8DAC /* HomeViewController.h */,
+				27A19EF817CE8BF7002F8DAC /* HomeViewController.m */,
+				27A19EFD17CE8C6D002F8DAC /* DeadDropTableViewController.h */,
+				27A19EFE17CE8C6E002F8DAC /* DeadDropTableViewController.m */,
+				27686A6417D51FE600AFAAE6 /* MapViewController.h */,
+				27686A6517D51FE600AFAAE6 /* MapViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A536D3BB17DCCC020010A094 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27A19EA817CE8632002F8DAC /* SeptemberPreso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A19EE117CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPreso" */;
+			buildPhases = (
+				821B60B75FA24C90A9D82E42 /* Check Pods Manifest.lock */,
+				27A19EA517CE8632002F8DAC /* Sources */,
+				27A19EA617CE8632002F8DAC /* Frameworks */,
+				27A19EA717CE8632002F8DAC /* Resources */,
+				286DAED8D90144F0B22A8E34 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeptemberPreso;
+			productName = SeptemberPreso;
+			productReference = 27A19EA917CE8632002F8DAC /* SeptemberPreso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27A19ECD17CE8632002F8DAC /* SeptemberPresoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A19EE417CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPresoTests" */;
+			buildPhases = (
+				FF71993DD5F741B6B6EC5B47 /* Check Pods Manifest.lock */,
+				27A19EC917CE8632002F8DAC /* Sources */,
+				27A19ECA17CE8632002F8DAC /* Frameworks */,
+				27A19ECB17CE8632002F8DAC /* Resources */,
+				27A19ECC17CE8632002F8DAC /* ShellScript */,
+				9EE3AD20EAF942CD9B98C533 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27A19ED517CE8632002F8DAC /* PBXTargetDependency */,
+			);
+			name = SeptemberPresoTests;
+			productName = SeptemberPresoTests;
+			productReference = 27A19ECE17CE8632002F8DAC /* SeptemberPresoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A19EA117CE8632002F8DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kyle Roberts";
+			};
+			buildConfigurationList = 27A19EA417CE8632002F8DAC /* Build configuration list for PBXProject "SeptemberPreso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27A19EA017CE8632002F8DAC;
+			productRefGroup = 27A19EAA17CE8632002F8DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A19EA817CE8632002F8DAC /* SeptemberPreso */,
+				27A19ECD17CE8632002F8DAC /* SeptemberPresoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27A19EA717CE8632002F8DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EB917CE8632002F8DAC /* InfoPlist.strings in Resources */,
+				27A19EC117CE8632002F8DAC /* Default.png in Resources */,
+				27A19EC317CE8632002F8DAC /* Default@2x.png in Resources */,
+				27A19EC517CE8632002F8DAC /* Default-568h@2x.png in Resources */,
+				27A19EF617CE8894002F8DAC /* Storyboard.storyboard in Resources */,
+				271A5D5517E75F660088FD75 /* superspy.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A19ECB17CE8632002F8DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EDB17CE8632002F8DAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A19ECC17CE8632002F8DAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		286DAED8D90144F0B22A8E34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SeptemberPreso-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821B60B75FA24C90A9D82E42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE3AD20EAF942CD9B98C533 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SeptemberPresoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF71993DD5F741B6B6EC5B47 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A19EA517CE8632002F8DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EBB17CE8632002F8DAC /* main.m in Sources */,
+				27A19EBF17CE8632002F8DAC /* AppDelegate.m in Sources */,
+				27A19EF917CE8BF7002F8DAC /* HomeViewController.m in Sources */,
+				27A19EFF17CE8C6E002F8DAC /* DeadDropTableViewController.m in Sources */,
+				27D94A7117D3E48400FE69BB /* DeadDrop.m in Sources */,
+				27D94A7D17D3F29000FE69BB /* DeadDropAnnotation.m in Sources */,
+				27686A6617D51FE600AFAAE6 /* MapViewController.m in Sources */,
+				A536D3BE17DCCC250010A094 /* SeptemberPreso.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A19EC917CE8632002F8DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A19EDE17CE8632002F8DAC /* SeptemberPresoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27A19ED517CE8632002F8DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27A19EA817CE8632002F8DAC /* SeptemberPreso */;
+			targetProxy = 27A19ED417CE8632002F8DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27A19EB717CE8632002F8DAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A19EB817CE8632002F8DAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27A19ED917CE8632002F8DAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A19EDA17CE8632002F8DAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27A19EDF17CE8632002F8DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27A19EE017CE8632002F8DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27A19EE217CE8632002F8DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPreso/SeptemberPreso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27A19EE317CE8632002F8DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C418B5052C414A1CBFC700E4 /* Pods-SeptemberPreso.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPreso/SeptemberPreso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27A19EE517CE8632002F8DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeptemberPreso.app/SeptemberPreso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPresoTests/SeptemberPresoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27A19EE617CE8632002F8DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826CD996A758420999444569 /* Pods-SeptemberPresoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeptemberPreso.app/SeptemberPreso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeptemberPreso/SeptemberPreso-Prefix.pch";
+				INFOPLIST_FILE = "SeptemberPresoTests/SeptemberPresoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A19EA417CE8632002F8DAC /* Build configuration list for PBXProject "SeptemberPreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A19EDF17CE8632002F8DAC /* Debug */,
+				27A19EE017CE8632002F8DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A19EE117CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A19EE217CE8632002F8DAC /* Debug */,
+				27A19EE317CE8632002F8DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A19EE417CE8632002F8DAC /* Build configuration list for PBXNativeTarget "SeptemberPresoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A19EE517CE8632002F8DAC /* Debug */,
+				27A19EE617CE8632002F8DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A536D3BC17DCCC250010A094 /* SeptemberPreso.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A536D3BD17DCCC250010A094 /* SeptemberPreso.xcdatamodel */,
+			);
+			currentVersion = A536D3BD17DCCC250010A094 /* SeptemberPreso.xcdatamodel */;
+			path = SeptemberPreso.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27A19EA117CE8632002F8DAC /* Project object */;
+}
